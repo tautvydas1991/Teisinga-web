@@ -1,0 +1,23 @@
+* {
+    font-family: 'PTSerif', sans-serif;
+}
+nav {
+    background-color: #FFFFFF;
+}
+#slider {
+    margin-top: 100px;
+}
+.slider-image {
+     filter: brightness(90%);
+}
+.h-center {
+    height: 50%;
+}
+.slider-header {
+    font-size: 60px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+.h-center a {
+    font-size: 30px;
+}
