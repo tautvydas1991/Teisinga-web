@@ -3,6 +3,11 @@
     src: url('PTSerif-Regular.ttf');
     font-style: normal;
 }
+@font-face {
+    font-family: 'PTSans-Narrow';
+    src: url('PTSansNarrow-Regular.ttf');
+    font-style: normal;
+}
 
 @font-face {
    font-family: 'PTSerif';
@@ -14,6 +19,12 @@
 @font-face {
     font-family: 'PTSerif';
     src: url('PTSerif-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSans-Narrow';
+    src: url('PTSansNarrow-Bold.ttf');
     font-weight: bold;
     font-style: normal;
 }
