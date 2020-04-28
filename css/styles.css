@@ -2,12 +2,14 @@
     font-family: 'PTSans-Narrow', sans-serif;
     box-sizing: border-box;
 }
-body {
-}
+
+body {}
+
 nav {
     background-color: #FEFFFF;
     height: 130px;
 }
+
 .fixed-top {
     z-index: 1;
 }
@@ -15,88 +17,107 @@ nav {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
- }
+}
 
 .navbar-collapse {
-   background: #FEFFFF;
+    background: #FEFFFF;
 }
 
 #slider {
     margin-top: 130px;
 }
+
 .slider-image {
-     filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 .slider-header {
     font-size: 3vw;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'PTSans-Narrow';
     padding: 0;
     margin: 0;
 }
+
 .slider-paragraph {
     font-family: 'PTSans-Narrow';
     text-transform: uppercase;
     font-size: 3vw;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     padding: 0;
     margin: 0;
 }
 
-#nav-animation, #nav-logo {
-  transition: 0.4s;
+#nav-animation,
+#nav-logo {
+    transition: 0.4s;
 }
+
 #nav-logo {
     width: 150px;
 }
+
 .darbai-container {
-background: linear-gradient(to right,  #f1f1f2 0%,#f1f1f2 50%,#d3e3e6 50%,#d3e3e6 100%);
+    background: linear-gradient(to right, #f1f1f2 0%, #f1f1f2 50%, #d3e3e6 50%, #d3e3e6 100%);
 }
- .btn {
+
+.btn {
     font-size: 50px;
     margin-bottom: 20px;
     color: #127985;
     border-color: #127985;
     text-transform: uppercase;
 }
+
 .btn-outline-dark {
-    color: #127985!important;
-    border-color: #127985!important;
+    color: #127985 !important;
+    border-color: #127985 !important;
 }
+
 .btn-outline-dark:hover {
-    background: #127985!important;
-    color: #FFFFFF!important;
+    background: #127985 !important;
+    color: #FFFFFF !important;
 }
+
 .left-column {
     background-color: #f1f1f2;
     flex-shrink: 2
 }
+
 .right-column {
     background-color: #d3e3e6;
 }
-.left-column img, .right-column img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50px;
+
+.left-column img,
+.right-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
 }
-.left-column h2, .right-column h2 {
+
+.left-column h2,
+.right-column h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
     color: #17252A;
 }
-.left-column p, .right-column p {
+
+.left-column p,
+.right-column p {
     text-align: center;
     font-size: 15px;
 }
-.left-column .btn, .right-column .btn {
-  margin-left: auto;
-  margin-right: auto;
+
+.left-column .btn,
+.right-column .btn {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 #galerija h2 {
     text-transform: uppercase;
     text-align: center;
@@ -104,46 +125,48 @@ background: linear-gradient(to right,  #f1f1f2 0%,#f1f1f2 50%,#d3e3e6 50%,#d3e3e
     color: #007984;
     font-weight: bold;
 }
+
 .container-gallery {
-  position: relative;
-  width: 50%;
-  z-index: 1;
-  overflow: hidden;
+    position: relative;
+    width: 50%;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .gallery-image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .gallery-middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
 }
 
 .container-gallery:hover .gallery-image {
-  filter: brightness(30%);
-  transform: scale(1.5);
+    filter: brightness(30%);
+    transform: scale(1.5);
 }
 
 .container-gallery:hover .gallery-middle {
-  opacity: 1;
+    opacity: 1;
 }
+
 #exampleModal {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
