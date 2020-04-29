@@ -157,7 +157,7 @@ nav {
 
 .container-gallery:hover .gallery-image {
     filter: brightness(30%);
-    transform: scale(1.5);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
 .container-gallery:hover .gallery-middle {
