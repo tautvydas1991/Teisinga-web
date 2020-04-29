@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-body {}
 
 nav {
     background-color: #FEFFFF;
@@ -140,6 +139,7 @@ nav {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin-bottom: 30px;
 }
 
 .gallery-middle {
@@ -169,4 +169,11 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+.galerija {
+    padding: 40px;
+
 }
