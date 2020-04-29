@@ -116,6 +116,20 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+/*APIE*/
+.about-image {
+    max-width: 50%;
+}
+.container-about {
+    width: auto;
+    background-color: #007984;
+}
+.about-paragraph {
+    background-color: #007984;
+    color: #FFFFFF;
+
+}
+/*GALERIJA*/
 
 #galerija h2 {
     text-transform: uppercase;
