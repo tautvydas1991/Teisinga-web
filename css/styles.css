@@ -1,6 +1,7 @@
 * {
     font-family: 'PTSans-Narrow', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -123,7 +124,9 @@ nav {
 .about-column {
     background-color: #007984;
     color: #FFFFFF;
-
+}
+.paslaugos-image {
+    width: 45px;
 }
 /*GALERIJA*/
 
