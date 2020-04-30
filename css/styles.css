@@ -5,13 +5,9 @@
 
 
 nav {
-    background-color: #FEFFFF;
     height: 130px;
 }
 
-.fixed-top {
-    z-index: 1;
-}
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -116,15 +112,15 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-/*APIE*/
-.about-image {
-    max-width: 50%;
+/*PASLAUGOS*/
+.paslaugos-paragraph {
+    display: none;
 }
+
 .container-about {
-    width: auto;
     background-color: #007984;
 }
-.about-paragraph {
+.about-column {
     background-color: #007984;
     color: #FFFFFF;
 
@@ -189,5 +185,4 @@ nav {
 }
 .galerija {
     padding: 40px;
-
 }

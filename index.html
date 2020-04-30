@@ -13,13 +13,14 @@
 
 <body>
     <header id="pagrindinis">
-        <nav id="nav-animation" class="navbar navbar-expand-xl fixed-top navbar-light">
+        <nav id="nav-animation" class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <div class="container">
             <a class="navbar-brand" href="#"><img id="nav-logo" width="200px;" src="images/logo2.png" alt="logotipas"></a>
-            <button class="navbar-toggler ml-auto float-xs-right" data-toggle="collapse" data-target="#collapse_target">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapse_target">
-                <ul class="text-uppercase nav navbar-nav ml-auto justify-content-center">
+                <ul class="text-uppercase navbar-nav ml-auto">
                     <li class="nav-item active"><a class="nav-link" href="#">Pagrindinis</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Apie mus</a></li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Paslaugos</a>
@@ -30,6 +31,7 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Kontaktai</a></li>
                 </ul>
+            </div>
             </div>
         </nav>
         <div id="slider" class="carousel slide" data-ride="carousel">
@@ -89,16 +91,6 @@
             </div>
         </div>
     </header>
-    <section id="apie">
-        <div class="d-flex flex-row container-about justify-content-center">
-                <div class="about-image d-xl-block d-sm-none">
-                    <img src="images/darbai/rinktines/1.jpg">
-                </div>
-                <div class="about-paragraph text-align-center">
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper tellus at massa ultrices venenatis. Cras interdum lacus purus, at suscipit dolor eleifend at. Nullam a ultrices ipsum. Nunc id tellus eu arcu condimentum venenatis. Nullam volutpat metus nulla, eu rhoncus tellus euismod nec. Vivamus justo dui, posuere at blandit vitae, pellentesque a nisi. Integer iaculis turpis placerat mi rhoncus, quis ultricies urna elementum.</p>
-                </div>
-        </div>
-    </section>
     <section id="galerija">
         <div class="container">
             <h2 class="p-3">Mūsų darbai</h2>
@@ -135,7 +127,7 @@
                             <a href="images/darbai/didzioji/2016%20Didzioji%20g.%207,%20Vilnius%208.jpg"></a>
                         </div>
                     </div>
-                      <div class="gallery-two container-gallery col-sm-6 col-md-4">
+                    <div class="gallery-two container-gallery col-sm-6 col-md-4">
                         <img class="rounded gallery-image" src="images/darbai/onos/2017%20prie%20Onos%20bzn.,%20Vilnius%203.jpg" alt="tyrimų nuotrauka">
                         <div class="gallery-middle">
                             <p>2017 m., šalia Šv. Onos bažnyčios, Vilnius</p>
@@ -166,18 +158,33 @@
             </div>
         </div>
     </section>
+    <section id="paslaugos">
+        <div class="about-column">
+            <div class="paslaugos">
+                <h4 class="paslaugos-heading">Detalieji archeologiniai tyrimai</h4>
+                <p class="paslaugos-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper tellus at massa ultrices venenatis. Cras interdum lacus purus, at suscipit dolor eleifend at. Nullam a ultrices ipsum. Nunc id tellus eu arcu condimentum venenatis. Nullam volutpat metus nulla, eu rhoncus tellus euismod nec. Vivamus justo dui, posuere at blandit vitae, pellentesque a nisi. Integer iaculis turpis placerat mi rhoncus, quis ultricies urna elementum.</p>
+            </div>
+            <div class="paslaugos">
+                <h4 class="paslaugos-heading">Žvalgomieji archeologiniai tyrimai</h4>
+                <p class="paslaugos-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper tellus at massa ultrices venenatis. Cras interdum lacus purus, at suscipit dolor eleifend at. Nullam a ultrices ipsum. Nunc id tellus eu arcu condimentum venenatis. Nullam volutpat metus nulla, eu rhoncus tellus euismod nec. Vivamus justo dui, posuere at blandit vitae, pellentesque a nisi. Integer iaculis turpis placerat mi rhoncus, quis ultricies urna elementum.</p>
+            </div>
+            <div class="paslaugos">
+                <h4 class="paslaugos-heading">Archeologiniai žvalgymai</h4>
+                <p class="paslaugos-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper tellus at massa ultrices venenatis. Cras interdum lacus purus, at suscipit dolor eleifend at. Nullam a ultrices ipsum. Nunc id tellus eu arcu condimentum venenatis. Nullam volutpat metus nulla, eu rhoncus tellus euismod nec. Vivamus justo dui, posuere at blandit vitae, pellentesque a nisi. Integer iaculis turpis placerat mi rhoncus, quis ultricies urna elementum.</p>
+            </div>
+        </div>
+    </section>
     <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/popper.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/baguetteBox.min.js" type="text/javascript"></script>
     <script>
-//        baguetteBox.run('.gallery', {});
-baguetteBox.run('.gallery-one', {});
-baguetteBox.run('.gallery-two', {});
-baguetteBox.run('.gallery-three', {});
-baguetteBox.run('.gallery-four', {});
-baguetteBox.run('.gallery-five', {});
-baguetteBox.run('.gallery-six', {});
+        baguetteBox.run('.gallery-one', {});
+        baguetteBox.run('.gallery-two', {});
+        baguetteBox.run('.gallery-three', {});
+        baguetteBox.run('.gallery-four', {});
+        baguetteBox.run('.gallery-five', {});
+        baguetteBox.run('.gallery-six', {});
     </script>
     <script>
         window.onscroll = function() {
@@ -196,6 +203,22 @@ baguetteBox.run('.gallery-six', {});
 
             }
         }
+    </script>
+    <script>
+        $(document).ready(function() {
+            function textAppear() {
+                $('.paslaugos').mouseenter(function() {
+                    $(this).find('.paslaugos-paragraph').slideDown(200);
+                    $(this).css("display", "block");
+                    $(this).css("box-shadow", "0px 5px 38.8px 1.2px rgba(0, 0, 0, 0.1)");
+                });
+                $('.paslaugos').mouseleave(function() {
+                    $(this).find('.paslaugos-paragraph').slideUp(200);
+                    $(this).css("box-shadow", "none");
+                });
+            }
+            textAppear();
+        });
     </script>
 </body>
 
