@@ -115,18 +115,53 @@ nav {
 }
 /*PASLAUGOS*/
 .paslaugos-paragraph {
-    display: none;
 }
-
-.container-about {
-    background-color: #007984;
+.paslaugos-column-left-image {
+    height: 300px;
 }
-.about-column {
-    background-color: #007984;
-    color: #FFFFFF;
+.paslaugos-row {
+    background-color: #f1f1f2;
+    width: 100%;
 }
 .paslaugos-image {
-    width: 45px;
+    margin-left: 30px;
+    width: 35px;
+    margin-right: 10px;
+}
+.paslaugos-column-left {
+    background-image: url("/images/background/kaminas.jpg");
+    resize: both;
+}
+.paslaugos-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 350px;
+}
+.paslaugos-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.paslaugos-heading {
+
+}
+.paslaugos-paragraph {
+    width: 560px;
+    justify-content: space-around;
+    display: none;
+    text-align: justify;
+}
+.paslaugos-heading-top {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #127985;
+    margin-left: 60px;
+}
+.paslauga {
+    width: 600px;
+    padding: 10px;
 }
 /*GALERIJA*/
 
@@ -188,4 +223,118 @@ nav {
 }
 .galerija {
     padding: 40px;
+}
+/* 6. FOOTER */
+
+#kontaktai {
+	background-color: #00535d;
+}
+.footer-top {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #007984;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.contact-information {
+	margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.google {
+    margin-top: 60px;
+}
+.contact-information p, .contact-information a {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.contact-information a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacts-heading {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.btn-subscribe {
+	width: 103%;
+	height: 30px;
+	color: #E3E2DF;
+}
+.footer-bottom {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0 10px 0;
+	justify-content: center;
+    background-color: #f1f1f2;
+
+}
+ol {
+	display: flex;
+}
+.bottom-line {
+	flex-direction: row;
+	padding-left: 30px;
+	list-style-type: none;
+	opacity: 0.6;
+	transition: opacity 0.6s;
+}
+.bottom-line a {
+    color: #212529;
+}
+.bottom-line a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.footer-top p {
+	font-size: 20px;
+}
+.contact-icons {
+}
+.footer-contacts {
+	text-decoration: none;
+	color: inherit;
+}
+.contact-adress {
+    margin-bottom: 0;
+}
+/* 6.1. RESPONSIVE FOOTER */
+
+@media screen and (max-width: 800px) {
+	.footer-top {
+		flex-direction: column;
+	}
+	.contact-information, .contact-form-info {
+		margin-bottom: 20px;
+	}
+	.contact-form-info {
+		text-align: center;
+	}
+	.footer-middle, .footer-bottom {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.social-icons {
+		justify-content: center;
+		width: 100%;
+	}
+	.footer-top p, .footer-middle p {
+		font-size: 16px;
+	}
+	.footer-bottom p {
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+	}
+	iframe {
+		display: none;
+	}
+	.social-icons {
+		padding: 0 auto;
+	}
+	footer h1 {
+		font-size: 30px;
+	}
 }
