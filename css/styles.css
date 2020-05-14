@@ -268,16 +268,29 @@ nav {
     }
     .paslaugos-column {
         width: 100%;
-        padding-top: 30px;
         text-align: center;
+
     }
     .paslaugos-paragraph {
-        width: 440px;
+        width: 280px;
 }
     .paslaugos-h {
         margin-left: 0;
+
     }
     .paslauga {
         width: 100%;
+        overflow: hidden;
+
+    }
+    .google {
+        width: 270px;
+        height: 270px;
+    }
+    .paslaugos-heading {
+        font-size: 18px;
+    }
+    .paslaugos-image {
+        margin-left: 10px;
     }
 }
