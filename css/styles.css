@@ -248,10 +248,10 @@ nav {
 /*RESPONSIVE*/
 @media only screen and (max-width: 1036px) {
     .carousel-inner {
-        height: 230px;
+        height: 210px;
     }
     .slider-image {
-        height: 230px;
+        height: 210px;
     }
     .about-image {
         display:none;
@@ -272,7 +272,7 @@ nav {
         text-align: center;
     }
     .paslaugos-paragraph {
-        width: 450px;
+        width: 440px;
 }
     .paslaugos-h {
         margin-left: 0;
