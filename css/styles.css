@@ -280,7 +280,7 @@ nav {
     }
     .paslauga {
         width: 100%;
-        overflow: hidden;
+        overflow: scroll;
 
     }
     .google {
