@@ -245,3 +245,39 @@ nav {
 .contact-heading {
     font-size: 30px;
 }
+/*RESPONSIVE*/
+@media only screen and (max-width: 1036px) {
+    .carousel-inner {
+        height: 230px;
+    }
+    .slider-image {
+        height: 230px;
+    }
+    .about-image {
+        display:none;
+    }
+    .about-heading {
+        text-align: center;
+        padding-top: 30px;
+}
+    .about-paragraph {
+        padding-bottom: 20px;
+    }
+    .paslaugos-column-left {
+        display: none;
+    }
+    .paslaugos-column {
+        width: 100%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .paslaugos-paragraph {
+        width: 450px;
+}
+    .paslaugos-h {
+        margin-left: 0;
+    }
+    .paslauga {
+        width: 100%;
+    }
+}
