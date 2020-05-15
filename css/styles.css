@@ -2,10 +2,12 @@
     font-family: 'PTSans-Narrow', sans-serif;
     box-sizing: border-box;
 }
+
 nav {
     height: 130px;
 
 }
+
 .navbar-toggler {
     border-color: #F8F9FA !important;
 }
@@ -19,6 +21,7 @@ nav {
     background: #F8F9FA;
 
 }
+
 #slider {
     margin-top: 130px;
 }
@@ -113,18 +116,20 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*APIE*/
 
 .about-image {
-        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-        width: 100%;
-        margin-left: 124px;
-        height: 320px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    width: 100%;
+    margin-left: 124px;
+    height: 320px;
 }
+
 .about-paragraph {
- line-height: 25px;
- text-align: justify;
- margin-top: 15px;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 15px;
 }
 
 /*PASLAUGOS*/
@@ -132,39 +137,45 @@ nav {
 .paslaugos-column-left-image {
     height: 300px;
 }
+
 .paslaugos-row {
     background-color: #f1f1f2;
     width: 100%;
 }
+
 .paslaugos-image {
     margin-left: 30px;
     width: 35px;
     margin-right: 10px;
 }
+
 .paslaugos-column-left {
     background-image: url("../images/background/kaminas.jpg");
     resize: both;
 }
-.paslaugos-column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 350px;
-}
-.paslaugos-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.paslaugos-heading {
 
+.paslaugos-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 350px;
 }
+
+.paslaugos-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.paslaugos-heading {}
+
 .paslaugos-paragraph {
     width: 560px;
     justify-content: space-around;
     display: none;
     text-align: justify;
 }
+
 .paslaugos-heading-top {
     text-transform: uppercase;
     font-size: 30px;
@@ -172,10 +183,12 @@ nav {
     color: #127985;
     margin-left: 60px;
 }
+
 .paslauga {
     width: 600px;
     padding: 10px;
 }
+
 /*GALERIJA*/
 
 #galerija h2 {
@@ -218,7 +231,7 @@ nav {
 
 .container-gallery:hover .gallery-image {
     filter: brightness(30%);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .container-gallery:hover .gallery-middle {
@@ -231,81 +244,129 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .baguetteBox-button {
     background-color: transparent !important;
 }
+
 .galerija {
     padding: 40px;
 }
+
 /* 6. FOOTER */
 
 #kontaktai {
-	background-color: #00535d;
+    background-color: #00535d;
 }
+
 .contact:hover {
     text-decoration: none;
 }
+
 .contact-heading {
     font-size: 30px;
 }
+
+.privatumo-politika {
+    cursor: pointer;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+.modal-body p,
+ul {
+    color: #000000;
+}
+
+.modal-body ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.modal-body p {
+    margin: 0;
+}
+
+.modal-body h5 {
+    margin: 10px 0 10px 0;
+}
+
 /*RESPONSIVE*/
 @media only screen and (max-width: 1036px) {
     .carousel-inner {
         height: 210px;
     }
+
     .slider-image {
         height: 210px;
     }
+
     .about-image {
-        display:none;
+        display: none;
     }
+
     .about-heading {
         text-align: center;
         padding-top: 30px;
-}
+    }
+
     .about-paragraph {
         padding-bottom: 20px;
     }
+
     .paslaugos-column-left {
         display: none;
     }
+
     .paslaugos-column {
         width: 100%;
         text-align: center;
 
     }
+
     .paslaugos-paragraph {
         width: 280px;
-}
+    }
+
     .paslaugos-h {
         margin-left: 0;
 
     }
+
     .paslauga {
         width: 100%;
         overflow: scroll;
     }
+
     .google {
         width: 270px;
         height: 270px;
     }
+
     .paslaugos-heading {
         font-size: 18px;
     }
+
     .paslaugos-image {
         margin-left: 10px;
     }
+
     .navbar {
-    padding: 0!important;
-}
+        padding: 0 !important;
+    }
+
     .navbar-brand {
         margin-left: 20px;
     }
+
     .navbar-toggler-icon {
         margin-right: 10px;
     }
+
     #kontaktai {
-        padding-top: 60px!important;
+        padding-top: 60px !important;
     }
 
     #galerija {
