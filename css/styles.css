@@ -4,9 +4,7 @@
 }
 nav {
     height: 130px;
-}
-.navbar {
-    padding: 0!important;
+
 }
 .navbar-toggler {
     border-color: #FFFFFF !important;
@@ -286,7 +284,6 @@ nav {
     .paslauga {
         width: 100%;
         overflow: scroll;
-
     }
     .google {
         width: 270px;
@@ -297,5 +294,14 @@ nav {
     }
     .paslaugos-image {
         margin-left: 10px;
+    }
+    .navbar {
+    padding: 0!important;
+}
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-toggler-icon {
+        margin-right: 10px;
     }
 }
