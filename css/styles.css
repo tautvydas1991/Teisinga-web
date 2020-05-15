@@ -304,6 +304,9 @@ nav {
     .navbar-toggler-icon {
         margin-right: 10px;
     }
+    #kontaktai {
+        padding-top: 60px!important;
+    }
 
     #galerija {
         padding-top: 60px;
