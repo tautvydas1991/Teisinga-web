@@ -5,7 +5,12 @@
 nav {
     height: 130px;
 }
-
+.navbar {
+    padding: 0!important;
+}
+.navbar-toggler {
+    border-color: #FFFFFF !important;
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -14,8 +19,8 @@ nav {
 
 .navbar-collapse {
     background: #FEFFFF;
-}
 
+}
 #slider {
     margin-top: 130px;
 }
